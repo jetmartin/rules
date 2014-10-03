@@ -14,7 +14,7 @@ use Drupal\rules\Engine\RulesActionBase;
  * Provides a 'Show a message on the site' action.
  *
  * @Action(
- *   id = "rules_drupal_message",
+ *   id = "rules_system_message",
  *   label = @Translation("Show a message on the site"),
  *   context = {
  *     "message" = @ContextDefinition("string",
